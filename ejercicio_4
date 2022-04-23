@@ -1,0 +1,18 @@
+grados_c=int(input("ingrese los grados C:  "))
+grados_k=int(input("ingrese los grados K:  "))
+grados_f=int(input("ingrese los grados F:  "))
+
+#PROCESO
+c_k=grados_c+273.15
+c_f=((9*grados_c)/5)+32
+k_c=grados_k - 273.15
+k_f=((9*(grados_k-273.15))/5)+32
+f_c=(5(grados_f-32))/9
+f_k=((5*(grados_f-32))/9)+273.15
+
+#salidas
+print("los Grados C a K:  ",c_k)
+print("los Grados C a K:  ",c_f)
+print("los Grados C a K:  ",k_c)
+print("los Grados C a K:  ",f_c)
+print("los Grados C a K:  ",f_k)

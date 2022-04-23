@@ -1,0 +1,12 @@
+#RAIZ CUADRADA
+#ENTRADAS
+a=float(input("valor de a:   "))
+b=float(input("valor de b:   "))
+c=float(input("valor de c:   "))
+#PROCESO
+
+x1=((-b)-(pow(((b**2)-(4*a*c)),1/2)))/(2*a)
+x2=((-b)+(pow(((b**2)-(4*a*c)),1/2)))/(2*a)
+#SALIDAS
+print("x1 es igual a: ", round(x1,2))
+print("x2 es igual a: ", round(x2,2))

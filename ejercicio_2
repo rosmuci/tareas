@@ -1,0 +1,12 @@
+#calcular el area y perimetro de un circulo
+from cmath import pi
+#entradas
+valor_radio=int(input("cual es el radio del círculo:  "));
+#procesos
+area=pi*pow(valor_radio,2)
+perimetro=((2*valor_radio)*pi);
+
+#salida
+print("el area del circulo es igual a:  ",round(area,2));
+print("el perímetro del circulo es igual a:  ",round(perimetro,2));
+
